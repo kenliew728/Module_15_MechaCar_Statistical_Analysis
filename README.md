@@ -29,7 +29,8 @@ The design specification for the MechaCar suspension coil has specified that the
 
 The first test was to determine if the PSI across all manufacturing lot is statistically different from the population mean of 1,500 lb/SqInch. To accomplish that, 50 ransom sample size is selected and tested for normality. Based on the Shapiro-Wilkins test, the sample size was not normally distributed as the p value was less than 0.05 level of significance.
 
-*Figure 1.4: Normality test on sample lot,*
+*Figure 1.4: Normality test on sample lot*
+
 ![all_lot_samples_Shapiro](https://user-images.githubusercontent.com/70525492/103032842-a983e800-4526-11eb-9cac-d419743c3bfc.png)
 
 Log 10 transformation was used to perform the one-sample t-test with the following results. Based on the result, the p-value was 0.9711, which was higher than 0.05 level of significance. We can accept the null hypothesis and conclude that there is no difference between mean of samples vs. mean of population.
